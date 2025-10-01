@@ -13,6 +13,7 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+.project
 
 # External tool builders
 .externalToolBuilders/
@@ -106,6 +107,9 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
+
+# Eclipse
+test/
 # Eclipse m2e generated files
 # Eclipse Core
 .project
@@ -130,5 +134,10 @@ buildNumber.properties
 # Ignore all local history of files
 .history
 .ionide
+
+
+out/
+build/
+
 
 # End of https://www.toptal.com/developers/gitignore/api/java,eclipse,visualstudiocode,maven
